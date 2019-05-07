@@ -13,7 +13,7 @@ while True:
     light_state_old = detect_light_change()
     if light_state_old != light_state_new:
         light_state_new = light_state_old
-        if !light_state_new:
+        if light_state_new == False:
             minute_gone_bed = minutes
 
     if minutes == 1440:
